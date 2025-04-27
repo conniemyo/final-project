@@ -3,17 +3,20 @@ let happiness = 5;
 let energy = 5;
 
 function updateStatus() {
-  let petStatus = document.getElementById("petStatus");
-
-  let statusMessage = `Hunger: ${hunger}, Happiness: ${happiness}, Energy: ${energy}`;
-  statusMessage = statusMessage.toUpperCase();
-
-  if (hunger >= 8 || happiness <= 2 || energy <= 2) {
-    petStatus.textContent = "FEELING: not great :(" + statusMessage;
-  } else {
-    petStatus.textContent = "FEELING: happy!" + statusMessage;
+    let feelingStatus = document.getElementById("feelingStatus");
+    let statStatus = document.getElementById("statStatus");
+  
+    let statusMessage = `HUNGER: ${hunger}, HAPPINESS: ${happiness}, ENERGY: ${energy}`;
+    statusMessage = statusMessage.toUpperCase();
+  
+    if (hunger >= 8 || happiness <= 2 || energy <= 2) {
+      feelingStatus.textContent = "FEELING: not happy :(";
+    } else {
+      feelingStatus.textContent = "FEELING: happy!";
+    }
+  
+    statStatus.textContent = statusMessage;
   }
-}
 
 function feedPet() {
   hunger = Math.max(0, hunger - 2);
