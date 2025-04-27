@@ -16,7 +16,7 @@ function updateStatus() {
     }
   
     statStatus.textContent = statusMessage;
-  }
+}
 
 function feedPet() {
   hunger = Math.max(0, hunger - 2);
