@@ -40,6 +40,6 @@ function restPet() {
 fetch("pet_tips.txt")
   .then(response => response.text())
   .then(data => {
-    console.log("Pet Tips Loaded:", data);
+    const tipsDiv = document.getElementById("petTips");
+    tipsDiv.innerHTML = "<h3>Pet Care Tips</h3><p>" + data.replace(/\n/g, "<br>") + "</p>";
   })
-  .catch(error => console.error("Error loading tips:", error));
