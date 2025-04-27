@@ -1,6 +1,6 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #fffafc;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #e0f7fa;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,31 +10,27 @@ body {
   }
   
   .container {
-    background-color: #ffe3ec;
+    background-color: #b2ebf2;
     border-radius: 20px;
     padding: 30px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
   }
   
   h1 {
-    color: #ff6f91;
-  }
-  
-  .pet img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    color: #00796b;
   }
   
   #petStatus {
-    font-size: 1.2em;
-    color: #333;
-    margin-top: 10px;
+    font-size: 1.3em;
+    color: #004d40;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .controls button {
-    background-color: #ff6f91;
+    background-color: #4dd0e1;
     border: none;
     border-radius: 12px;
     padding: 10px 20px;
@@ -46,5 +42,6 @@ body {
   }
   
   .controls button:hover {
-    background-color: #ff4070;
+    background-color: #26c6da;
   }
+  

@@ -4,17 +4,14 @@ let energy = 5;
 
 function updateStatus() {
   let petStatus = document.getElementById("petStatus");
-  let petImage = document.getElementById("petImage");
 
   let statusMessage = `Hunger: ${hunger}, Happiness: ${happiness}, Energy: ${energy}`;
   statusMessage = statusMessage.toUpperCase();
 
   if (hunger >= 8 || happiness <= 2 || energy <= 2) {
-    petStatus.textContent = "I'm not feeling so good! " + statusMessage;
-    petImage.src = "sad.png";
+    petStatus.textContent = "FEELING: not great :(" + statusMessage;
   } else {
-    petStatus.textContent = "I'm feeling happy! " + statusMessage;
-    petImage.src = "happy.png";
+    petStatus.textContent = "FEELING: happy!" + statusMessage;
   }
 }
 
