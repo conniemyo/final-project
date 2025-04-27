@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+}
   
   .container {
     background-color: #000000;
@@ -15,11 +15,11 @@ body {
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     width: 300px;
-  }
+}
   
   h1 {
     color: #b2ebf2;
-  }
+}
   
   .controls button {
     background-color: #b2ebf2;
@@ -31,22 +31,33 @@ body {
     color: #000000;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
+}
   
   .controls button:hover {
     background-color: #80e7f5;
-  }
+}
 
   #feelingStatus {
     font-size: 1.4em;
     font-weight: bold;
     color: #ffc3c3;
     margin-bottom: 10px;
-  }
+}
   
   #statStatus {
     font-size: 1.3em;
     color: #ccffc3;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
+}
+
+  .pet-tips {
+    margin-top: 20px;
+    background-color: #b2ebf2;
+    padding: 15px;
+    border-radius: 10px;
+    color: #00695c;
+    font-size: 0.95em;
+}
+
+
