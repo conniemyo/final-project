@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <title>Virtual Pet!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🐾 Virtual Pet: Mochi 🐾</h1>
+      <div class="pet">
+        <img id="petImage" src="happy.png" alt="Mochi" />
+        <p id="petStatus">I'm feeling happy!</p>
+      </div>
+      <div class="controls">
+        <button onclick="feedPet()">🍎 Feed</button>
+        <button onclick="playWithPet()">🎾 Play</button>
+        <button onclick="restPet()">💤 Rest</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  </html>

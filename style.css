@@ -1,0 +1,50 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fffafc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #ffe3ec;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    color: #ff6f91;
+  }
+  
+  .pet img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  #petStatus {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .controls button {
+    background-color: #ff6f91;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .controls button:hover {
+    background-color: #ff4070;
+  }
